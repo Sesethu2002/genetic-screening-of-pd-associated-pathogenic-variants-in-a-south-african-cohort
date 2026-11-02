@@ -8,9 +8,9 @@ Overview
 QC -> Strand/reference correction -> TopMed imputation -> ANNOVAR annotation -> prioritisation (gnomAD FAF95_max ≤ 0.01, CADD ≥ 15, REVEL ≥ 0.7) -> Carrier identification.
 
 Software and versions 
-PLINK	 v1.9/ v2.0	(OC, file conversion)
+PLINK	 v1.9/ v2.00a3 (OC, file conversion)
 bcftools (+fixref)	1.9 (htslib 1.9)	(Strand and REF correction)
-samtools		(Reference indexing)
+samtools	version not recorded	(Reference indexing)
 NAToRA	No version number: (files dated 22 July 2026; Leal et al., 2022)	(Relatedness)
 TopMed Imputation Server	v2.0	(Imputation)
 Eagle 	v2.4	(Phasing) 
@@ -18,8 +18,8 @@ ANNOVAR	2 March 2025	(Annotation)
 ClinVar	21 July 2025 release 	(Clinical classification)
 gnomAD	v4.1	(Allele frequency (FAF95_max))
 dbNSFP	v4.7a	(REVEL score)
-CADD	v1.2 (via dbNSFP v4.7a; Schubach et al., 2024)	(Deleteriousness scores)
-Python 	Python/3.11.9	(Analysis and figures)
+CADD	v1.7 (via dbNSFP v4.7a; Schubach et al., 2024)	(Deleteriousness scores)
+Python 	Python/3.11.9	(HPC) (Analysis and figures)
 
 
 Data availability
