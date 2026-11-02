@@ -4,11 +4,10 @@ This research aims to identify and characterise candidate variants using the Neu
 
 This study utilised genotyping data from the South African PD Study Collection, comprising 691 individuals diagnosed with PD, 30 family members and 826 neurologically healthy controls. 
 
-**Overview **
+Overview 
 QC -> Strand/reference correction -> TopMed imputation -> ANNOVAR annotation -> prioritisation (gnomAD FAF95_max ≤ 0.01, CADD ≥ 15, REVEL ≥ 0.7) -> Carrier identification.
 
-**Software and versions 
-**
+Software and versions 
 PLINK	 v1.9/ v2.0	(OC, file conversion)
 bcftools (+fixref)	1.9 (htslib 1.9)	(Strand and REF correction)
 samtools		(Reference indexing)
@@ -23,15 +22,15 @@ CADD	v1.2 (via dbNSFP v4.7a; Schubach et al., 2024)	(Deleteriousness scores)
 Python 	Python/3.11.9	(Analysis and figures)
 
 
-**Data availability **
+Data availability
 Data can not be shared publicly due to it consisting of real participant information, individual-level genotype and clinical data. 
 
-**Running the pipeline **
+Running the pipeline 
 Run the scripts in ‘scripts/‘ in numerical order on an CHPC/HPC session.
 Edit the paths at the top of each script. 
 
-**Contact **
+Contact
 Sesethu Nondzasa, 31083641@sun.ac.za
 
-**Acknowledgments **
+Acknowledgments
 Prof. Petersen, Prof. Möller, Dr. Step, MJFF, ASAP, GP2, NIH, Stellenbosch University Department of Biomedical Sciences, MAGIC Lab and Parkinson’s Disease Research Group.
